@@ -10,9 +10,10 @@ During prediction we have used a sentence level approach and evaluated the score
 
 
 In order to replicate our results, you can use the ipython notebook included in this folder.
+
 Dependencies: nltk library
 
-Please run this additional code if receive errors due to nltk.stopwords
+Please run this additional code if you receive errors due to nltk.stopwords depdency:
 
 ```
 import nltk
