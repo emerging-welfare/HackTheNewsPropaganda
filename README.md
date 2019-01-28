@@ -1,4 +1,4 @@
-This repository provides the code for Emerging Welfare projects () participation to Hack the News Datathon. The datathon link: https://www.datasciencesociety.net/datathon/
+This repository provides the code for Emerging Welfare projects (https://emw.ku.edu.tr/) participation to Hack the News Datathon. The datathon link: https://www.datasciencesociety.net/datathon/
 
 The code for task 1 and task 2 solutions requires the following libraries: \
 pandas, pytorch, https://github.com/OsmanMutlu/pytorch-pretrained-BERT (This is a fork of huggingface's original pytorch implementation of BERT), pretrained BERT model with its config and vocab file
