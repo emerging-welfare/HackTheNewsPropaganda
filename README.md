@@ -1,9 +1,9 @@
-Datathon link : https://www.datasciencesociety.net/datathon/
+This repository provides the code for Emerging Welfare projects () participation to Hack the News Datathon. The datathon link: https://www.datasciencesociety.net/datathon/
 
 The code for task 1 and task 2 solutions requires the following libraries: \
 pandas, pytorch, https://github.com/OsmanMutlu/pytorch-pretrained-BERT (This is a fork of huggingface's original pytorch implementation of BERT), pretrained BERT model with its config and vocab file
 
-### For Task 1 : \
+### For Task 1:
 Run gettask1data.py, which splits the train data into two \
 Then run bert_finetune.py, which fine-tunes the pretrained BERT model on our training data and saves the best performer model on val data. \
 Example run of bert_finetune.py :
@@ -46,7 +46,7 @@ Run gettask2data.py with TRAIN = False, which combines the test data into a sing
 Finally run task2_predictor.py, which predicts test data (You need to change bert_model variable)
 
 
-### For Task 3: \
+### For Task 3:
 
 We have used a keyword counter based system to detect keywords that occur frequently in the training dataset for each label.
 
