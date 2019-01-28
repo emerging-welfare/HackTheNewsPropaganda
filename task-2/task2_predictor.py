@@ -198,7 +198,7 @@ def main():
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     n_gpu = torch.cuda.device_count()
-    tokenizer = BertTokenizer.from_pretrained(bert_model)
+    tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
     model = BertForSequenceClassification.from_pretrained(bert_model, PYTORCH_PRETRAINED_BERT_CACHE)
     model.load_state_dict(torch.load(model_path))
     model.to(device)
